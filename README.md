@@ -12,6 +12,8 @@ The checkpoints were based on self-contained analysis tasks that were explored a
 - Chose AE with the highest average ROC area under the curve for all BSM samples
 - Found anomaly thresholds maximising the significance improvement
 
+**Report3: Geant4 custom detector build, detection and classification analysis**
+
 **Report4: 1 TeV Higgs search**
 
 - Manual cuts followed by NN classification on weakly correlated variables with invariant mass, avoiding background sculpting

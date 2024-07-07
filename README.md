@@ -14,10 +14,17 @@ The checkpoints were based on self-contained analysis tasks that were explored a
 
 **Report3: Geant4 custom detector build, detection and classification analysis**
 
+**Base set-up**
+
 - Fired truth electrons, protons, photons and neutrons at homogeneous electromagnetic calorimeter (10 cm lead-glass) and hadronic sampling calorimeter (3cm lead, 30 cm liquid argon, 5 stacks)
 - 5000 particles of each type fired with energy incrementing by 5 MeV each time, starting at 200 MeV and finishing at 25 GeV. 20000 events in total. Simulation precision tuned to speed up computation. 
-- Processed detector hits and used them to train a neural network to classify between the four particles. The current detector cannot distinguish the charge of particles so protons-neutrons and electrons-photons get mistagged between the classes. The best val_loss is 0.5818.
-- 
+- Processed detector hits and used them to train a neural network to classify between the four particles. The current detector cannot distinguish the charge of particles so protons-neutrons and electrons-photons get mistagged between the classes. The best val_loss is 0.5818. It does better than guessing which is equivalent to 0.25.
+- Calibration quality is very good for electrons and photons as they are completely stopped. Protons and neutrons are not fully contained in the detector so they have poor calibration quality. 
+  
+**Enhanced set-up**
+
+- *Improvements*: Add silicone tracking layer (1cm) before ECAL, increase the lead to liquid argon ratio (5:25), increase the depth of HCAL (from 5 to 8 layers) and add 0.05 Tesla magnetic field in the x direction.
+- *Effect*: Distinguish between charged and non-charged particles, increase the stopping power of the HCAL, increase the detector material to contain the particles better, and distinguish the charge between particles. 
 
   
 **Report4: 1 TeV Higgs search**

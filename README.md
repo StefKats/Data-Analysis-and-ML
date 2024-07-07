@@ -23,7 +23,7 @@ The checkpoints were based on self-contained analysis tasks that were explored a
   
 **Enhanced set-up**
 
-- *Improvements*: Add silicone tracking layer (1cm) before ECAL, increase the lead to liquid argon ratio (5:25), increase the depth of HCAL (from 5 to 8 layers) and add 0.05 Tesla magnetic field in the x direction.
+- *Improvements*: Add silicon tracking layer (1cm) before ECAL, increase the lead to liquid argon ratio (5:25), increase the depth of HCAL (from 5 to 8 layers) and add 0.05 Tesla magnetic field in the x direction.
 - *Effect*: Distinguish between charged and non-charged particles, increase the stopping power of the HCAL, increase the detector material to contain the particles better, and distinguish the charge between particles.
 - Repeat the event simulation for another 20000 events, process the detector read-out and train a neural network. 
 - Best val_loss is now 0.9984. The symmetry in the detector activation between electrons-photons and neutrons-protons is now removed and the network can easily discriminate between the four particles.

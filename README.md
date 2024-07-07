@@ -2,7 +2,8 @@
 
 My projects and checkpoints for the University of Edinburgh data analysis and machine learning (DAML) graduate course.
 
-In total, I worked on 3 projects and 14 checkpoints. The projects were focused on exploring key stages of the particle physics analysis pipeline of the ATLAS and CMS experiments. The projcts are in the form of Jupyter Notebook reports. 
+In total, I worked on 3 projects and 14 checkpoints. The projects were focused on exploring key stages of the particle physics analysis pipeline of the ATLAS and CMS experiments. The projects are in the form of Jupyter Notebook reports. 
+
 The checkpoints were based on self-contained analysis tasks that were explored along with the lectures. The projects contain all of the output files needed to interpret the results. Only the initial datasets are not included due to their size. 
 
 ### Report1: Dark machines anomaly detection challenge

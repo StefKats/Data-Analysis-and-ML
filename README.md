@@ -9,7 +9,7 @@ The checkpoints were based on self-contained analysis tasks that were explored a
 ### Report1: Dark machines anomaly detection challenge
 
 - Designed an autoencoder (AE) for unsupervised anomaly detection
-- Performed hyperparameter search
+- Performed hyperparameter search: training each model on SM sample and evaluating on mixed SM and BSM sample
 - Chose AE with the highest average ROC area under the curve for all BSM samples
 - Found anomaly thresholds maximising the significance improvement
 

@@ -1,18 +1,18 @@
 # Data-Analysis-and-ML
 
-My projects and checkpoints for the University of Edinburgh data analysis and machine learning (DAML) graduate course
+My projects and checkpoints for the University of Edinburgh data analysis and machine learning (DAML) graduate course.
 
-In total, I worked on 3 projects and 14 checkpoints. The projects were focused on exploring key stages of the particle physics analysis pipeline and are in the form of Jupyter Notebook reports. 
+In total, I worked on 3 projects and 14 checkpoints. The projects were focused on exploring key stages of the particle physics analysis pipeline of the ATLAS and CMS experiments. The projcts are in the form of Jupyter Notebook reports. 
 The checkpoints were based on self-contained analysis tasks that were explored along with the lectures. The projects contain all of the output files needed to interpret the results. Only the initial datasets are not included due to their size. 
 
-### Report2: Dark machines anomaly detection challenge
+### Report1: Dark machines anomaly detection challenge
 
 - Designed an autoencoder (AE) for unsupervised anomaly detection
 - Performed hyperparameter search
 - Chose AE with the highest average ROC area under the curve for all BSM samples
 - Found anomaly thresholds maximising the significance improvement
 
-### Report3: Geant4 custom detector build, detection and classification analysis
+### Report2: Geant4 custom detector build, detection and classification analysis
 
 **Base set-up**
 
@@ -31,7 +31,7 @@ The checkpoints were based on self-contained analysis tasks that were explored a
 - Classification can be improved with some pre-selection criteria. 
 
   
-### Report4: 1 TeV Higgs search
+### Report3: 1 TeV BSM Higgs search
 
 - Manual cuts followed by NN classification on weakly correlated variables with invariant mass, avoiding background sculpting
 - Curve fitting using Minuit optimiser: finding best distribution shape, polynomial (H0) vs gaussian+polynomial (H1)
